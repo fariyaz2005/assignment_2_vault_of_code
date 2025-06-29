@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f3f4;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Full Internship Box Styling */
+.internship-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.internship-box h1 {
+  font-size: 2em;
+  color: #1a73e8;
+  margin-bottom: 10px;
+}
+
+.internship-box h2 {
+  font-size: 1.3em;
+  color: #5f6368;
+  margin-bottom: 15px;
+}
+
+.internship-box p {
+  font-size: 1.05em;
+  color: #3c4043;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.apply-btn {
+  background-color: #1a73e8;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #0c5ccd;
+}
